@@ -1,5 +1,6 @@
 import os
 
+os.system('make');
 os.system('mkdir -p output');
 
 for i in range(1, 5):
