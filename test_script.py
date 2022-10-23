@@ -21,7 +21,7 @@ if option == 1:
             print("\n")
 
 elif option == 2:
-    task = input("Choose what task to do:\n")
+    task = input("Choose what test to do:\n")
     os.system('make')
     print("\n")
     os.system('mkdir -p output')
