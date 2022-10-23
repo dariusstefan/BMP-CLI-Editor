@@ -19,7 +19,7 @@ if option == 1:
             os.system(cmd)
 
 elif option == 2:
-    task = input("Choose what test to do:\n")
+    task = input("Choose what task to do:\n")
     os.system('make')
     os.system('mkdir -p output')
 
